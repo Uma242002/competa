@@ -115,8 +115,8 @@ if st.button("Predict"):
     min_fee, max_fee = model.predict(x)[0]
 
     # **Display Results in Streamlit**
-    st.success(f"🎯 Predicted Min Fee: {round(min_fee, 2)} LPA")
-    st.success(f"🎯 Predicted Max Fee: {round(max_fee, 2)} LPA")
+    st.success(f"🎯 Predicted Min Fee: {round(min_fee, 2)}")
+    st.success(f"🎯 Predicted Max Fee: {round(max_fee, 2)} ")
 
     
 
