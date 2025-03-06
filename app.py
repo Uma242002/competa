@@ -2,11 +2,21 @@ import streamlit as st
 import pandas as pd
 
 st.header("competitors")
-
+image_url = "https://uxprice.com/blog/wp-content/uploads/2020/08/depositphotos_185356366_xl-2015-1536x1024.jpg"
+st.markdown(
+    f"""
+    <div style="display: flex; justify-content: center;">
+        <img src="{image_url}" width="700" height="300">
+    </div>
+    """,
+    unsafe_allow_html=True
+)
 st.write("Predictive Model Built on Below Sample Data")
 
 data = pd.read_csv("CampaInpData.csv")
+
 st.dataframe(data.head())
+st.write("**Select the input data**") 
 
 col1,col2 = st.columns(2)
 with col1:
