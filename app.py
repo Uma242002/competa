@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-st.header("Compitators")
+st.header("competitors")
 
 st.write("Predictive Model Built on Below Sample Data")
 
