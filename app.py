@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-st.header("COMPETITOR ANALYSIS & FEE PREDICTION")
+st.header("Price Estimation Based on Competitor Data Using Python")
 image_url = "https://uxprice.com/blog/wp-content/uploads/2020/08/depositphotos_185356366_xl-2015-1536x1024.jpg"
 st.markdown(
     f"""
